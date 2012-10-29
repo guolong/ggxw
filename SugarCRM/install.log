@@ -1,0 +1,177 @@
+
+2012-10-26 01:50:37...Begin DB Check Process *************
+2012-10-26 01:50:37...testing with mysql:mysqli
+2012-10-26 01:50:37...Basic form info is valid, continuing Process.
+2012-10-26 01:50:37...Testing user account...
+2012-10-26 01:50:37...Connection made using  host: localhost, usr: sugaruser824
+2012-10-26 01:50:37...Testing priviliged account...
+2012-10-26 01:50:37...Connection made using  host: localhost, usr: sugaruser824
+2012-10-26 01:50:37...DB Selected, will reuse sugarcrm824
+2012-10-26 01:50:37...Passed DB install check
+2012-10-26 01:50:39...ERROR: Cannot create writable dir cache/upload/import
+2012-10-26 01:50:39...installerHook: Could not find custom/install/install_hooks.php
+2012-10-26 01:50:39...calling handleSugarConfig()
+2012-10-26 01:50:39...calling handleLog4Php()
+2012-10-26 01:50:39...calling handleWebConfig()
+2012-10-26 01:50:39...calling handleDbCreateDatabase()
+2012-10-26 01:50:41...looping through all the Beans and create their tables
+2012-10-26 01:50:41...processing table acl_actions
+2012-10-26 01:50:41...creating table acl_actions
+2012-10-26 01:50:41...creating Relationship Meta for ACLAction
+2012-10-26 01:50:41...processing table acl_roles
+2012-10-26 01:50:41...creating table acl_roles
+2012-10-26 01:50:41...creating Relationship Meta for ACLRole
+2012-10-26 01:50:41...processing table relationships
+2012-10-26 01:50:41...creating table relationships
+2012-10-26 01:50:41...creating Relationship Meta for Relationship
+2012-10-26 01:50:41...processing table leads
+2012-10-26 01:50:43...creating table leads
+2012-10-26 01:50:43...creating Relationship Meta for Lead
+2012-10-26 01:50:45...processing table cases
+2012-10-26 01:50:45...creating table cases
+2012-10-26 01:50:45...creating Relationship Meta for Case
+2012-10-26 01:50:46...processing table bugs
+2012-10-26 01:50:46...creating table bugs
+2012-10-26 01:50:46...creating Relationship Meta for Bug
+2012-10-26 01:50:46...processing table users
+2012-10-26 01:50:47...creating table users
+2012-10-26 01:50:47...creating Relationship Meta for User
+2012-10-26 01:50:47...processing table campaign_log
+2012-10-26 01:50:47...creating table campaign_log
+2012-10-26 01:50:47...creating Relationship Meta for CampaignLog
+2012-10-26 01:50:47...processing table project
+2012-10-26 01:50:48...creating table project
+2012-10-26 01:50:48...creating Relationship Meta for Project
+2012-10-26 01:50:48...processing table project_task
+2012-10-26 01:50:48...creating table project_task
+2012-10-26 01:50:48...creating Relationship Meta for ProjectTask
+2012-10-26 01:50:49...processing table campaigns
+2012-10-26 01:50:49...creating table campaigns
+2012-10-26 01:50:49...creating Relationship Meta for Campaign
+2012-10-26 01:50:50...processing table prospect_lists
+2012-10-26 01:50:50...creating table prospect_lists
+2012-10-26 01:50:50...creating Relationship Meta for ProspectList
+2012-10-26 01:50:50...processing table prospects
+2012-10-26 01:50:51...creating table prospects
+2012-10-26 01:50:51...creating Relationship Meta for Prospect
+2012-10-26 01:50:52...processing table email_marketing
+2012-10-26 01:50:53...creating table email_marketing
+2012-10-26 01:50:53...creating Relationship Meta for EmailMarketing
+2012-10-26 01:50:53...processing table campaign_trkrs
+2012-10-26 01:50:53...creating table campaign_trkrs
+2012-10-26 01:50:53...creating Relationship Meta for CampaignTracker
+2012-10-26 01:50:53...processing table releases
+2012-10-26 01:50:54...creating table releases
+2012-10-26 01:50:54...creating Relationship Meta for Release
+2012-10-26 01:50:54...processing table emailman
+2012-10-26 01:50:54...creating table emailman
+2012-10-26 01:50:54...creating Relationship Meta for EmailMan
+2012-10-26 01:50:54...processing table schedulers
+2012-10-26 01:50:54...creating table schedulers
+2012-10-26 01:50:54...creating Relationship Meta for Scheduler
+2012-10-26 01:50:54...processing table job_queue
+2012-10-26 01:50:54...creating table job_queue
+2012-10-26 01:50:54...creating Relationship Meta for SchedulersJob
+2012-10-26 01:50:55...processing table contacts
+2012-10-26 01:50:56...creating table contacts
+2012-10-26 01:50:56...creating Relationship Meta for Contact
+2012-10-26 01:50:56...processing table accounts
+2012-10-26 01:50:57...creating table accounts
+2012-10-26 01:50:57...creating Relationship Meta for Account
+2012-10-26 01:50:58...processing table opportunities
+2012-10-26 01:50:59...creating table opportunities
+2012-10-26 01:50:59...creating Relationship Meta for Opportunity
+2012-10-26 01:50:59...processing table email_templates
+2012-10-26 01:51:00...creating table email_templates
+2012-10-26 01:51:00...creating Relationship Meta for EmailTemplate
+2012-10-26 01:51:00...processing table notes
+2012-10-26 01:51:01...creating table notes
+2012-10-26 01:51:01...creating Relationship Meta for Note
+2012-10-26 01:51:01...processing table calls
+2012-10-26 01:51:01...creating table calls
+2012-10-26 01:51:01...creating Relationship Meta for Call
+2012-10-26 01:51:02...processing table emails
+2012-10-26 01:51:03...creating table emails
+2012-10-26 01:51:03...creating Relationship Meta for Email
+2012-10-26 01:51:03...processing table meetings
+2012-10-26 01:51:03...creating table meetings
+2012-10-26 01:51:03...creating Relationship Meta for Meeting
+2012-10-26 01:51:04...processing table tasks
+2012-10-26 01:51:04...creating table tasks
+2012-10-26 01:51:04...creating Relationship Meta for Task
+2012-10-26 01:51:04...processing table users
+2012-10-26 01:51:04...processing table users
+2012-10-26 01:51:04...processing table currencies
+2012-10-26 01:51:04...creating table currencies
+2012-10-26 01:51:04...creating Relationship Meta for Currency
+2012-10-26 01:51:04...processing table tracker
+2012-10-26 01:51:04...creating table tracker
+2012-10-26 01:51:04...creating Relationship Meta for Tracker
+2012-10-26 01:51:04...processing table import_maps
+2012-10-26 01:51:04...creating table import_maps
+2012-10-26 01:51:04...creating Relationship Meta for ImportMap
+2012-10-26 01:51:04...processing table users_last_import
+2012-10-26 01:51:05...creating table users_last_import
+2012-10-26 01:51:05...creating Relationship Meta for UsersLastImport
+2012-10-26 01:51:05...processing table config
+2012-10-26 01:51:05...creating table config
+2012-10-26 01:51:05...creating Relationship Meta for Administration
+2012-10-26 01:51:05...processing table upgrade_history
+2012-10-26 01:51:05...creating table upgrade_history
+2012-10-26 01:51:05...creating Relationship Meta for UpgradeHistory
+2012-10-26 01:51:05...processing table vcals
+2012-10-26 01:51:05...creating table vcals
+2012-10-26 01:51:05...creating Relationship Meta for vCal
+2012-10-26 01:51:05...processing table versions
+2012-10-26 01:51:05...creating table versions
+2012-10-26 01:51:05...creating Relationship Meta for Version
+2012-10-26 01:51:05...processing table roles
+2012-10-26 01:51:05...creating table roles
+2012-10-26 01:51:05...creating Relationship Meta for Role
+2012-10-26 01:51:05...processing table documents
+2012-10-26 01:51:06...creating table documents
+2012-10-26 01:51:06...creating Relationship Meta for Document
+2012-10-26 01:51:06...processing table document_revisions
+2012-10-26 01:51:06...creating table document_revisions
+2012-10-26 01:51:06...creating Relationship Meta for DocumentRevision
+2012-10-26 01:51:06...processing table fields_meta_data
+2012-10-26 01:51:06...creating table fields_meta_data
+2012-10-26 01:51:06...creating Relationship Meta for FieldsMetaData
+2012-10-26 01:51:06...processing table inbound_email
+2012-10-26 01:51:06...creating table inbound_email
+2012-10-26 01:51:06...creating Relationship Meta for InboundEmail
+2012-10-26 01:51:06...processing table saved_search
+2012-10-26 01:51:06...creating table saved_search
+2012-10-26 01:51:06...creating Relationship Meta for SavedSearch
+2012-10-26 01:51:07...processing table user_preferences
+2012-10-26 01:51:07...creating table user_preferences
+2012-10-26 01:51:07...creating Relationship Meta for UserPreference
+2012-10-26 01:51:07...processing table 
+2012-10-26 01:51:07...processing table email_addresses
+2012-10-26 01:51:07...creating table email_addresses
+2012-10-26 01:51:07...creating Relationship Meta for EmailAddress
+2012-10-26 01:51:07...processing table emails_text
+2012-10-26 01:51:07...creating table emails_text
+2012-10-26 01:51:07...creating Relationship Meta for EmailText
+2012-10-26 01:51:07...processing table sugarfeed
+2012-10-26 01:51:07...creating table sugarfeed
+2012-10-26 01:51:07...creating Relationship Meta for SugarFeed
+2012-10-26 01:51:07...processing table eapm
+2012-10-26 01:51:08...creating table eapm
+2012-10-26 01:51:08...creating Relationship Meta for EAPM
+2012-10-26 01:51:08...processing table oauth_consumer
+2012-10-26 01:51:08...creating table oauth_consumer
+2012-10-26 01:51:08...creating Relationship Meta for OAuthKey
+2012-10-26 01:51:08...processing table oauth_tokens
+2012-10-26 01:51:08...creating table oauth_tokens
+2012-10-26 01:51:08...creating Relationship Meta for OAuthToken
+2012-10-26 01:51:16...Begin creating Defaults
+2012-10-26 01:51:16...insert defaults into config table
+2012-10-26 01:51:16...Creating default users
+2012-10-26 01:51:16...Creating default scheduler jobs
+2012-10-26 01:51:17...Enable SugarFeeds
+2012-10-26 01:51:17...Enable InsideView Connector
+2012-10-26 01:51:17...Creating FTS logic hook
+2012-10-26 01:51:17...populating the db with seed data
+2012-10-26 01:51:18...Installation has completed *********
+2012-10-26 01:52:07...installerHook: Could not find custom/install/install_hooks.php

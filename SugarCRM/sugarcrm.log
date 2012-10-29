@@ -1,0 +1,25 @@
+10/26/12 09:50:37 [2680][-none-][FATAL]  Query Failed: SHOW TABLES LIKE 'config': MySQL error 1046: No database selected
+10/26/12 16:29:09 [6012][1][FATAL] SMTP -> ERROR: Failed to connect to server. Code: 10060 Reply: 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+ 
+10/26/12 16:29:09 [6012][1][FATAL] SugarPHPMailer encountered an error: The following From address failed: loong@biteomics.com
+10/26/12 16:35:06 [6012][1][FATAL] SMTP -> ERROR:AUTH not accepted from server. Code: 503 Reply: 503 Error: authentication not enabled
+
+10/26/12 16:35:06 [6012][1][FATAL] SMTP -> ERROR: RCPT not accepted from server. Code: 554 Reply: 554 Relay access denied
+ 
+10/26/12 16:35:06 [6012][1][FATAL] SugarPHPMailer encountered an error: SMTP Error: The following recipients failed: loong@biteomics.com
+10/26/12 16:37:39 [6012][1][FATAL] SMTP -> ERROR:AUTH not accepted from server. Code: 503 Reply: 503 Error: authentication not enabled
+
+10/26/12 16:37:39 [6012][1][FATAL] SMTP -> ERROR: RCPT not accepted from server. Code: 554 Reply: 554 Relay access denied
+ 
+10/26/12 16:37:39 [6012][1][FATAL] SugarPHPMailer encountered an error: SMTP Error: The following recipients failed: mr.long.guo@gmail.com
+10/26/12 16:37:50 [6012][1][FATAL] SMTP -> ERROR:AUTH not accepted from server. Code: 503 Reply: 503 Error: authentication not enabled
+
+10/26/12 16:37:50 [6012][1][FATAL] SMTP -> ERROR: RCPT not accepted from server. Code: 554 Reply: 554 Relay access denied
+ 
+10/26/12 16:37:50 [6012][1][FATAL] SugarPHPMailer encountered an error: SMTP Error: The following recipients failed: mr.long.guo@gmail.com
+10/26/12 17:06:54 [6008][-none-][FATAL] SECURITY: User authentication for loong failed
+10/26/12 17:06:54 [6008][-none-][FATAL] FAILED LOGIN:attempts[1] - loong
+10/26/12 17:07:28 [6008][-none-][FATAL] SECURITY: User authentication for loong failed
+10/26/12 17:07:28 [6008][-none-][FATAL] FAILED LOGIN:attempts[2] - loong
+10/26/12 17:07:51 [6008][-none-][FATAL] SECURITY: User authentication for loong failed
+10/26/12 17:07:51 [6008][-none-][FATAL] FAILED LOGIN:attempts[3] - loong

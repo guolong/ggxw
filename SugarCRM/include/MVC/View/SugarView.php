@@ -74,7 +74,7 @@ class SugarView
     /**
      * Options for what UI elements to hide/show/
      */
-    var $options = array('show_header' => true, 'show_title' => true, 'show_subpanels' => false, 'show_search' => true, 'show_footer' => true, 'show_javascript' => true, 'view_print' => false,);
+    var $options = array('show_header' => true, 'show_title' => true, 'show_subpanels' => false, 'show_search' => true, 'show_footer' => false, 'show_javascript' => true, 'view_print' => false,);
     var $type = null;
     var $responseTime;
     var $fileResources;

@@ -1,7 +1,7 @@
-<?php /* Smarty version 2.6.11, created on 2012-10-27 19:42:02
+<?php /* Smarty version 2.6.11, created on 2012-10-30 13:59:19
          compiled from cache/modules/Leads/SearchForm_advanced.tpl */ ?>
 <?php require_once(SMARTY_CORE_DIR . 'core.load_plugins.php');
-smarty_core_load_plugins(array('plugins' => array(array('function', 'counter', 'cache/modules/Leads/SearchForm_advanced.tpl', 26, false),array('function', 'math', 'cache/modules/Leads/SearchForm_advanced.tpl', 27, false),array('function', 'sugar_getimagepath', 'cache/modules/Leads/SearchForm_advanced.tpl', 35, false),array('function', 'sugar_translate', 'cache/modules/Leads/SearchForm_advanced.tpl', 44, false),array('function', 'html_options', 'cache/modules/Leads/SearchForm_advanced.tpl', 369, false),array('function', 'sugar_getimage', 'cache/modules/Leads/SearchForm_advanced.tpl', 437, false),)), $this); ?>
+smarty_core_load_plugins(array('plugins' => array(array('function', 'counter', 'cache/modules/Leads/SearchForm_advanced.tpl', 26, false),array('function', 'math', 'cache/modules/Leads/SearchForm_advanced.tpl', 27, false),array('function', 'sugar_getimagepath', 'cache/modules/Leads/SearchForm_advanced.tpl', 35, false),array('function', 'sugar_translate', 'cache/modules/Leads/SearchForm_advanced.tpl', 44, false),array('function', 'html_options', 'cache/modules/Leads/SearchForm_advanced.tpl', 405, false),array('function', 'sugar_getimage', 'cache/modules/Leads/SearchForm_advanced.tpl', 473, false),)), $this); ?>
 
 <script>
 <?php echo '
@@ -317,6 +317,43 @@ smarty_core_load_plugins(array('plugins' => array(array('function', 'counter', '
      
     value='<?php echo $this->_tpl_vars['value']; ?>
 ' title=''      >
+   	   	</td>
+    
+      
+	
+	<?php echo smarty_function_counter(array('assign' => 'index'), $this);?>
+
+	<?php echo smarty_function_math(array('equation' => "left % right",'left' => $this->_tpl_vars['index'],'right' => $this->_tpl_vars['templateMeta']['maxColumns'],'assign' => 'modVal'), $this);?>
+
+	<?php if (( $this->_tpl_vars['index'] % $this->_tpl_vars['templateMeta']['maxColumns'] == 1 && $this->_tpl_vars['index'] != 1 )): ?>
+        <?php if ($this->_tpl_vars['isHelperShown'] == 0): ?>
+            <?php $this->assign('isHelperShown', '1'); ?>
+            <td class="helpIcon" width="*">
+                <img alt="<?php echo $this->_tpl_vars['APP']['LBL_SEARCH_HELP_TITLE']; ?>
+" id="helper_popup_image" border="0" src='<?php echo smarty_function_sugar_getimagepath(array('file' => "help-dashlet.gif"), $this);?>
+' class="help-search">
+            </td>
+        <?php else: ?>
+            <td>&nbsp;</td>
+        <?php endif; ?>
+		</tr><tr>
+	<?php endif; ?>
+	
+	<td scope="row" nowrap="nowrap" width='8.3333333333333%' >
+		
+		<label for='company_c_advanced'><?php echo smarty_function_sugar_translate(array('label' => 'LBL_COMPANY','module' => 'Leads'), $this);?>
+</label>
+    	</td>
+	<td  nowrap="nowrap" width='25%'>
+			
+<?php if (strlen ( $this->_tpl_vars['fields']['company_c_advanced']['value'] ) <= 0):  $this->assign('value', $this->_tpl_vars['fields']['company_c_advanced']['default_value']);  else:  $this->assign('value', $this->_tpl_vars['fields']['company_c_advanced']['value']);  endif; ?>  
+<input type='text' name='<?php echo $this->_tpl_vars['fields']['company_c_advanced']['name']; ?>
+' 
+    id='<?php echo $this->_tpl_vars['fields']['company_c_advanced']['name']; ?>
+' size='30' 
+    maxlength='100' 
+    value='<?php echo $this->_tpl_vars['value']; ?>
+' title='Company the lead working for'      >
    	   	</td>
     
       
